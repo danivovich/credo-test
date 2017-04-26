@@ -22,7 +22,6 @@ defmodule CredoDesign do
   end
 
   def finished? do
-    # TODO finish this
-    # FIXME Make this do something
+    true
   end
 end
