@@ -1,0 +1,8 @@
+- type: parallel
+  services:
+    - app
+  steps:
+    - name: credo
+      command: mix credo
+    - name: test
+      command: mix test
