@@ -1,0 +1,5 @@
+mix credo --only readability
+mix credo --only consistency
+mix credo --only design
+mix credo --only refactor
+mix credo --only warning
