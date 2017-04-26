@@ -9,7 +9,7 @@ defmodule CredoDesign do
     c = 5 + 6
     d = a + b
     e = c + d
-    goodbye(e)
+    CredoPres.goodbye(e)
   end
 
   def harder_math do
@@ -18,7 +18,7 @@ defmodule CredoDesign do
     c = 5 + 6
     d = a + b
     e = c + d
-    goodbye(e)
+    CredoPres.goodbye(e)
   end
 
   def finished? do
